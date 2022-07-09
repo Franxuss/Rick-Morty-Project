@@ -33,7 +33,7 @@ a{
 
 .overlay.active {
 	opacity: 1;
-	z-index: 3;
+	z-index: 300;
 }
 
 .modal {
@@ -46,7 +46,7 @@ a{
 	color: #4a5666;
 	background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	z-index: 3;
+	z-index: 300;
 	visibility: hidden;
 	opacity: 0;
 	transition: .5s ease;
