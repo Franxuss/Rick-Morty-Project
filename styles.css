@@ -1006,32 +1006,6 @@ button.button-register:hover, .button-login:hover{
     .pagination span{
         padding: 0.9em 0 0 0.3em;
     }
-    .start-button-div{
-        animation: none;
-    }
-    .start:before, .start:after {
-        transform: none;
-    }
-    .start:after {
-        background-color: none;
-    }
-        
-    .start:before {
-        background-color: none;
-    }
-        
-    .start:hover {
-        background-color: none;
-        transition: none;
-    }
-        
-    .start:hover:before {
-        animation: none;
-    }
-        
-    .start:hover:after {
-        animation: none;
-    }
 }
 /* Small devices (portrait tablets and large phones,
 600px and up) */
