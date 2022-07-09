@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dead characters content">
+    <meta name="author" content="Fran Gutiérrez">
+    <title>Dead</title>
+    <link rel="stylesheet" href="../../styles.css" type="text/css">
+    <link rel="icon" href="../../resources/images/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="../../lib/jquery-3.6.0.js"></script>
+    <script type="module" src="../../index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <button type="button" class="music-button"><i class="fa fa-volume-xmark"></i></button>
+            <button type="button" class="exit-button"><i class="fa-solid fa-right-from-bracket"></i></button>
+            <nav class="nav-menu" style="--items: 3;">
+                <a id="alive" href="./alive.html">Alive</a>
+                <a id = "dead" href="./dead.html" class="active">Dead</a>
+                <a id = "unknown" href="./unknown.html">Unknown</a>
+                <span class="line"></span>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="grid-section">
+            <div class="grid">
+            </div>
+            <div class="pagination-section">
+                <div class="pagination">
+                    <button type="button" id="button-prev">&laquo;</button>
+                    <span id="pageNumber"></span>
+                    <button type="button" id="button-next">&raquo;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Property of Fran Gutierrez</p>
+        <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-tiktok"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Register page" />
+    <meta name="author" content="Fran Gutiérrez">
+    <title>Register</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../resources/images/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="../lib/jquery-3.6.0.js"></script>
+    <script type="module" src="../index.js"></script>
+  </head>
+  <body class="form-page-body">
+    <button type="button" class="music-button"><i class="fa fa-volume-xmark"></i></button>
+    <main class="form-main form-main-register">
+      <form class="survey-form survey-form-register" type="submit" action="https://formspree.io/f/mjvprpgy" method="POST" enctype="multipart/form-data">
+        <h1 class="form-title">Regístrate</h1>        
+        <label class="required" id="name-label" for="name-register">Nombre de usuario</label><br />
+        <input type="text" name="name-register" id="name-register" class="form-control" placeholder="Escriba su nombre" required
+        /><br />
+        <label class="required" id="email-label" for="email-register">Email</label><br />
+        <input type="email" name="email-register" id="email-register" class="form-control" placeholder="Escriba su email" required />
+        <br />
+        <label class="required" id="password-label" for="password-register" >Contraseña</label><br />
+        <input type="password" name="password-register" id="password-register" class="form-control" placeholder="Escriba su contraseña" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required/>
+        <p class="condition-password">Debe contener al menos una letra maýuscula, una minúscula, un símbolo y mínimo 8 caracteres.</p>
+        <br />
+        <button class="button-register" type="submit" value="ENVIAR" formtarget="_blank">ENVIAR</button>
+        <br />
+        <p><span class="required" id="form-span">obligartorio</span></p>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Log in page" />
+    <meta name="author" content="Fran Gutiérrez">
+    <title>Log In</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../resources/images/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="../lib/jquery-3.6.0.js"></script>
+    <script type="module" src="../index.js"></script>
+  </head>
+  <body class="form-page-body">
+    <button type="button" class="music-button"><i class="fa fa-volume-xmark"></i></button>
+    <main class="form-main-login">
+      <div class="survey-form-login">
+        <h1 class="form-title-login">Inicia Sesión</h1>        
+        <label class="required" id="email-label" for="email">Email</label><br />
+        <input type="email" name="email" id="email" class="form-control-login" placeholder="Escriba su email" required />
+        <br />
+        <label class="required" id="password-label" for="password" >Contraseña</label><br />
+        <input type="password" name="password" id="password" class="form-control-login" placeholder="Escriba su contraseña" required/>
+        <br />
+        <button class="button-login" type="submit">ENVIAR</button>
+        <br />
+        <p><span class="required" id="form-span">obligartorio</span></p>
+      </div>
+    </main>
+  </body>
+</html>
