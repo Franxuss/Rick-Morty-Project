@@ -33,7 +33,7 @@ a{
 
 .overlay.active {
 	opacity: 1;
-	z-index: 300;
+	z-index: 3;
 }
 
 .modal {
@@ -46,7 +46,7 @@ a{
 	color: #4a5666;
 	background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	z-index: 300;
+	z-index: 3;
 	visibility: hidden;
 	opacity: 0;
 	transition: .5s ease;
@@ -1005,6 +1005,12 @@ button.button-register:hover, .button-login:hover{
     }
     .pagination span{
         padding: 0.9em 0 0 0.3em;
+    }
+    .start-button-div{
+        position: absolute;
+        width: 100%;
+        animation: none;
+        bottom: 10vh;
     }
 }
 /* Small devices (portrait tablets and large phones,
